@@ -1,0 +1,279 @@
+/* COMMON CSS */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Arimo", sans-serif, "Abril Fatface", serif;
+}
+.menu ul li:hover{
+    background-color: #13bdf1;
+}
+.container{
+    width:1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.aligh-center{
+    align-items: center;
+}
+.btn{
+    text-transform: uppercase;
+    font-size: 14px;
+    color:black;
+    background-color:#13bdf1;
+    padding: 15px 10px;
+    display: inline-block;
+    border:none;
+}
+.heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color:#222222;
+    font-family:"Abril Fatface", serif;
+}
+.row p{
+    padding-top: 20px;
+    color:#817f81;
+    line-height: 30px;
+}
+.heading p{
+    color:#777177;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+
+/* COMMON CSS ENDS */
+
+/* NAVBAR STARTS */
+nav{
+    background-color: #fef8ff;
+}
+.row{
+    align-items: center;
+}
+.menu{
+    width:80%;
+    text-align: right;
+}
+nav .menu ul li{
+    display:inline-block;
+}
+nav .menu ul li a{
+    color:#a2a1a2;
+    font-size:16px;
+    display: inline-block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+}
+
+
+/* NAVBAR ENDS */
+
+/* TAGLINE STARTS */
+#tagline{
+    background-color: #fef8ff; ;
+}
+.big-logo{
+    margin-left: 200px;
+    padding-top: 50px;
+}
+/* TAGLINE ENDS */
+
+/* POPULAR CATEGORIES STARTS */
+
+#categories{
+    padding:98px 0;
+    text-align: center;
+    line-height: 30px;
+}
+#categories .rectangle{
+    padding-top: 15px;
+    margin: auto;
+}
+#categories .aboutcards1 .row img{
+    padding: 80px 0;
+    margin-left: 20px;
+    
+}
+#categories .aboutcards2 .row img{
+    margin-left: 20px;
+    
+}
+
+.row-div, .row-div2{
+    background-color: #f5f5f5;
+    width: 259px;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    height: 259px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.row-div2{
+    margin-top: 20px;
+}
+.row-div img{
+    margin-right: 20px;
+}
+.row-div2 img{
+    margin-right: 20px;
+    margin-top: 70px;
+}
+.inside-div{
+    margin-top: -50px;
+}
+
+.inside-div{
+    margin-top: -50px;
+}
+.row-div .inside-div{
+    text-align: center;
+    align-items: center;
+}
+.row-div .inside-div p{
+    margin-top: -20px;
+}
+.row-div:hover{
+    background-color: #13bdf1;
+    height: 285px;
+    width: 285px;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: -20px;
+}
+.row-div2:hover{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #13bdf1;
+    height: 285px;
+    width: 285px;
+    color: white;
+}
+/* POPULAR CATEGORIES ENDS */
+
+
+/* WORK PART STARTS */
+
+#work .heading h2{
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: 46px;
+    color:#222222;
+    font-family:"Abril Fatface", serif;
+    text-align: center;
+} 
+
+
+#work .heading p{
+    text-align: center;
+    color:#5e575e;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    line-height: 30px;
+}
+
+.row-div3{
+    margin-left: 30px;
+}
+#work .rectangle{
+    padding-top: 20px;
+    text-align: center;
+}
+.row-div3-img{
+    background-color: #f5f5f5;
+    box-shadow: 0px 5px 10px 10px #f5f5f5;
+    padding: 80px 0;
+    margin-left:105px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.inside-div3{
+    text-align: center;
+}
+.row-div3-img img{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+.row-div3-img:hover{
+    background-color: #13bdf1;
+}
+/* WORK PART ENDS */
+
+/* MILESTONE & PARTNER */
+
+#milestone{
+    margin-top: 150px;
+}
+#milestone .heading h2{
+    text-align: center;
+}
+.row-m-main{
+    margin-top: 120px;
+}
+.mainDiv, .row-m{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.row-m h1{
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+.row-m2{
+    margin-left: 80px;
+    height: 140px;
+    width: 1px;
+    background-color: #837f7f;
+}
+.row-m3{
+    margin-left: 140px;
+    height: 1px;
+    width: 500px;
+    background-color: #837f7f;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.row-m4{
+    margin-top: -50px;
+    margin-left: 31px;
+    height: 140px;
+    width: 1px;
+    background-color: #837f7f;
+}
+.iconDiv{
+    margin-top: 170px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.img2 img, .img1 img{
+    margin-left: 3px;
+}
+.img2{
+    margin-top: 100px;
+}
+
+/* MILESTONE & PARTNER ENDS */
